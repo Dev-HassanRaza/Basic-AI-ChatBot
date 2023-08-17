@@ -1,0 +1,308 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.group-image{
+  margin: 0;
+  padding: 0;
+  height: 450px;
+  width: 100;
+}
+.navBar {
+  display: flex;
+  /* justify-content: space-between; */
+  background-color: white;
+  align-items: center;
+  min-height: 52px;
+  padding: 0px 20px;
+}
+.navItems {
+  display: flex;
+  align-items: center;
+  margin-left: 80px;
+  list-style: none;
+  text-decoration: none;
+  font-weight: lighter;
+  font-size: 15px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  gap: 30px;
+}
+.donate-button {
+  background-color: #fff;
+  color: black;
+  border: 2px solid greenyellow;
+  border-radius: 0; /* Remove border-radius to make the button rectangular */
+  padding: 5px 5px;
+  margin-left: 20px;
+  cursor: pointer;
+  font-size: 13px;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.sponsor-button {
+  background-color: #fff;
+  color: #007bff;
+  border: 2px solid #007bff;
+  border-radius: 0; /* Remove border-radius to make the button rectangular */
+  padding: 5px 5px;
+  margin-left: 20px;
+  cursor: pointer;
+  font-size: 13px;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.donate-button:hover {
+  background-color: greenyellow;
+  color: #fff;
+}
+.sponsor-button:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+.border-bottom {
+  border-bottom: 1px solid lightgrey;
+}
+.Main-content1 {
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 150px;
+  font-size: 30px;
+  margin-left: 50px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.Main-content2 {
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 8px;
+  color: chartreuse;
+  font-size: 30px;
+  margin-left: 50px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.line {
+  align-items: flex-start;
+  justify-content: center;
+  color: black;
+  margin-top: 20px;
+  font-size: 20px;
+  margin-left: 50px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.para {
+  color: black;
+  text-align: left;
+  margin-top: 15px;
+  font-size: 15px;
+  margin-left: 50px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.curved-button {
+  padding: 10px 20px;
+  background-color: grey;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 50px;
+  border-width: 30px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  transition: 0.3s;
+}
+
+.curved-button:hover {
+  background-color: greenyellow;
+}
+.group-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.head {
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  margin-left: 500px;
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+/* .card-container {
+  display: flex; 
+} */
+
+/* .card {
+  width: 300px;
+  height: 280px; 
+  background-color: #f0f0f0;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  overflow: hidden;
+  margin-right: 20px; 
+  margin-top: 50px;
+} */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.card {
+  width: calc(33.33% - 20px);
+  background-color: #f4f4f4;
+  padding: 20px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.content {
+  padding: 20px;
+}
+
+h2 {
+  margin: 0;
+}
+
+p {
+  margin: 10px 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+  border-radius: 20px 20px 0 0; /* Adjust this to match the card's border radius */
+}
+.ques {
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  margin-left: 550px;
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.circle-frame {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid #ccc;
+  margin-left: 550px;
+  margin-top: 50px;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.ping {
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-left: 535px;
+  font-size: 30px;
+  color: #0056b3;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.txt {
+  align-items: center;
+  /* margin-top: 80px; */
+  border-radius: 50%;
+  width: 500px;
+  padding: 1%;
+  justify-content: center;
+  margin-top: 10px;
+  margin-left: 400px;
+  font-size: 15px;
+  color: black;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.saylani {
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  margin-left: 450px;
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.container {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-right: 50px;
+}
+
+.subscribe-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.email-input {
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+
+.subscribe-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.subscribe-button:hover {
+  background-color: #0056b3;
+}
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding: 40px 20px;
+}
+
+.footer-logo img {
+  width: 100px; 
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.footer-column {
+  flex: 1;
+  margin-right: 30px;
+}
+
+.footer-column h4 {
+  margin-bottom: 10px;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid #fff;
+}
+
+.footer-bottom p {
+  margin: 0;
+}
